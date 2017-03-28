@@ -1,1 +1,1 @@
-# Foundations_Of_Information_Theory
+# Основи теорії інформації
