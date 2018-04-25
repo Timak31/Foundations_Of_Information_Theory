@@ -5,7 +5,7 @@ import java.io.IOException;
  */
 public class Main {
     public static void main(String[] args) throws IOException {
-        ReadFile rFile = new ReadFile("/home/timak31/Документы/Навчання/Основи теорії інформації/FinalVersion/text.txt");
+        ReadFile rFile = new ReadFile("src\\text.txt");
         Algoritm algoritm = new Algoritm();
 
         algoritm.showResult(algoritm.ukrainOrRussianLanguege(rFile.getText(), rFile.getSize()));
